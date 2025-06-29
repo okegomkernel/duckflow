@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.duckflow.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinClientConnection"
+  ],
+  "client": [
+    "ChatScreenMixin",
+    "GameMenuScreenMixin",
+    "InventoryScreenMixin",
+    "LecternScreenMixin",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayNetworkHandler",
+    "MixinInGameHud",
+    "MixinKeyboard",
+    "MixinRenderTickCounter",
+    "MixinWorldRenderer",
+    "SplashTextMixin",
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "!DuckFlow-refmap.json"
+}

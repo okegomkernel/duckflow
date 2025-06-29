@@ -1,0 +1,96 @@
+{
+  "mappings": {
+    "com/duckflow/mixin/ChatScreenMixin": {
+      "sendMessage(Ljava/lang/String;Z)V": "Lnet/minecraft/class_408;method_44056(Ljava/lang/String;Z)V"
+    },
+    "com/duckflow/mixin/GameMenuScreenMixin": {
+      "initWidgets": "Lnet/minecraft/class_433;method_20543()V"
+    },
+    "com/duckflow/mixin/InventoryScreenMixin": {
+      "init": "Lnet/minecraft/class_490;method_25426()V"
+    },
+    "com/duckflow/mixin/LecternScreenMixin": {
+      "init": "Lnet/minecraft/class_3935;method_25426()V"
+    },
+    "com/duckflow/mixin/MixinClientConnection": {
+      "channelRead0": "Lnet/minecraft/class_2535;method_10770(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;)V",
+      "sendImmediately": "Lnet/minecraft/class_2535;method_10764(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;Z)V"
+    },
+    "com/duckflow/mixin/MixinClientPlayNetworkHandler": {
+      "sendChatMessage": "Lnet/minecraft/class_634;method_45729(Ljava/lang/String;)V"
+    },
+    "com/duckflow/mixin/MixinClientPlayerEntity": {
+      "Lnet/minecraft/client/network/AbstractClientPlayerEntity;tick()V": "Lnet/minecraft/class_742;method_5773()V",
+      "Lnet/minecraft/client/network/ClientPlayerEntity;sendMovementPackets()V": "Lnet/minecraft/class_746;method_3136()V",
+      "tick": "Lnet/minecraft/class_746;method_5773()V"
+    },
+    "com/duckflow/mixin/MixinInGameHud": {
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+    },
+    "com/duckflow/mixin/MixinKeyboard": {
+      "onKey": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+    },
+    "com/duckflow/mixin/MixinRenderTickCounter": {
+      "Lnet/minecraft/client/render/RenderTickCounter$Dynamic;prevTimeMillis:J": "Lnet/minecraft/class_9779$class_9781;field_51962:J",
+      "beginRenderTick(J)I": "Lnet/minecraft/class_9779$class_9781;method_60639(J)I"
+    },
+    "com/duckflow/mixin/MixinWorldRenderer": {
+      "render": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_9922;Lnet/minecraft/class_9779;ZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;)V"
+    },
+    "com/duckflow/mixin/SplashTextMixin": {
+      "get": "Lnet/minecraft/class_4008;method_18174()Lnet/minecraft/class_8519;"
+    },
+    "com/duckflow/mixin/TitleScreenMixin": {
+      "init": "Lnet/minecraft/class_442;method_25426()V",
+      "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_332;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/duckflow/mixin/ChatScreenMixin": {
+        "sendMessage(Ljava/lang/String;Z)V": "Lnet/minecraft/class_408;method_44056(Ljava/lang/String;Z)V"
+      },
+      "com/duckflow/mixin/GameMenuScreenMixin": {
+        "initWidgets": "Lnet/minecraft/class_433;method_20543()V"
+      },
+      "com/duckflow/mixin/InventoryScreenMixin": {
+        "init": "Lnet/minecraft/class_490;method_25426()V"
+      },
+      "com/duckflow/mixin/LecternScreenMixin": {
+        "init": "Lnet/minecraft/class_3935;method_25426()V"
+      },
+      "com/duckflow/mixin/MixinClientConnection": {
+        "channelRead0": "Lnet/minecraft/class_2535;method_10770(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/class_2596;)V",
+        "sendImmediately": "Lnet/minecraft/class_2535;method_10764(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;Z)V"
+      },
+      "com/duckflow/mixin/MixinClientPlayNetworkHandler": {
+        "sendChatMessage": "Lnet/minecraft/class_634;method_45729(Ljava/lang/String;)V"
+      },
+      "com/duckflow/mixin/MixinClientPlayerEntity": {
+        "Lnet/minecraft/client/network/AbstractClientPlayerEntity;tick()V": "Lnet/minecraft/class_742;method_5773()V",
+        "Lnet/minecraft/client/network/ClientPlayerEntity;sendMovementPackets()V": "Lnet/minecraft/class_746;method_3136()V",
+        "tick": "Lnet/minecraft/class_746;method_5773()V"
+      },
+      "com/duckflow/mixin/MixinInGameHud": {
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+      },
+      "com/duckflow/mixin/MixinKeyboard": {
+        "onKey": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+      },
+      "com/duckflow/mixin/MixinRenderTickCounter": {
+        "Lnet/minecraft/client/render/RenderTickCounter$Dynamic;prevTimeMillis:J": "Lnet/minecraft/class_9779$class_9781;field_51962:J",
+        "beginRenderTick(J)I": "Lnet/minecraft/class_9779$class_9781;method_60639(J)I"
+      },
+      "com/duckflow/mixin/MixinWorldRenderer": {
+        "render": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_9922;Lnet/minecraft/class_9779;ZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lorg/joml/Matrix4f;Lorg/joml/Matrix4f;)V"
+      },
+      "com/duckflow/mixin/SplashTextMixin": {
+        "get": "Lnet/minecraft/class_4008;method_18174()Lnet/minecraft/class_8519;"
+      },
+      "com/duckflow/mixin/TitleScreenMixin": {
+        "init": "Lnet/minecraft/class_442;method_25426()V",
+        "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_332;IIF)V"
+      }
+    }
+  }
+}
